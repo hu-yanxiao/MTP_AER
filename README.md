@@ -46,7 +46,7 @@ The 𝜆_1 and 𝜆_2 are non-negative weights. In program, ther are determined 
 mlp train untrained.mtp trainset.cfg --std-weight 𝜆_1 --stdd-weight 𝜆_2 ...
 ```
 The global term of AER is determined by chemical potential of simple substance.    
-![image](https://github.com/user-attachments/assets/4beb1170-7af2-4c03-8571-1d8448d42408)
+![image](https://github.com/user-attachments/assets/4beb1170-7af2-4c03-8571-1d8448d42408)  
 μ_t is calculated by DFT and read by program from .mtp file, like this:
 ![image](https://github.com/user-attachments/assets/ab84bdcc-019f-44c2-b142-12cfe26d1484)
 If item "mu_ " is missed in .mtp file, the default values are set to 0.
